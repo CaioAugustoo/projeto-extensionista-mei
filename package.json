@@ -1,0 +1,28 @@
+{
+  "name": "projeto-faculdade",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "@react-navigation/native": "^6.1.8",
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "react-native-sqlite-storage": "^8.1.0",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-safe-area-context": "^4.8.2",
+    "react-native-gesture-handler": "^2.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/runtime": "^7.22.5",
+    "babel-jest": "^29.6.1",
+    "jest": "^29.6.1",
+    "metro-react-native-babel-preset": "^0.79.0"
+  }
+}
